@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43934053DF1BB637BFCDDAC5 /* Pods_TegakiNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74758B6A1ECA14CB34C951BB /* Pods_TegakiNote.framework */; };
 		4EB47CA824BD03D50029F880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB47CA724BD03D50029F880 /* AppDelegate.swift */; };
 		4EB47CAA24BD03D50029F880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB47CA924BD03D50029F880 /* SceneDelegate.swift */; };
 		4EB47CAC24BD03D50029F880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB47CAB24BD03D50029F880 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28CC316111408CD7593F4102 /* Pods-TegakiNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TegakiNote.release.xcconfig"; path = "Target Support Files/Pods-TegakiNote/Pods-TegakiNote.release.xcconfig"; sourceTree = "<group>"; };
 		4EB47CA424BD03D50029F880 /* TegakiNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TegakiNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB47CA724BD03D50029F880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB47CA924BD03D50029F880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		4EB47CC524BD03D70029F880 /* TegakiNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TegakiNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB47CC924BD03D70029F880 /* TegakiNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TegakiNoteUITests.swift; sourceTree = "<group>"; };
 		4EB47CCB24BD03D70029F880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6961259437722E669A672452 /* Pods-TegakiNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TegakiNote.debug.xcconfig"; path = "Target Support Files/Pods-TegakiNote/Pods-TegakiNote.debug.xcconfig"; sourceTree = "<group>"; };
+		74758B6A1ECA14CB34C951BB /* Pods_TegakiNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TegakiNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43934053DF1BB637BFCDDAC5 /* Pods_TegakiNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06EFCB13A81FC5D040B417BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6961259437722E669A672452 /* Pods-TegakiNote.debug.xcconfig */,
+				28CC316111408CD7593F4102 /* Pods-TegakiNote.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4EB47C9B24BD03D50029F880 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				4EB47CBD24BD03D70029F880 /* TegakiNoteTests */,
 				4EB47CC824BD03D70029F880 /* TegakiNoteUITests */,
 				4EB47CA524BD03D50029F880 /* Products */,
+				06EFCB13A81FC5D040B417BC /* Pods */,
+				71BE1A8CD366E8D7DAA83D5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,14 @@
 			path = TegakiNoteUITests;
 			sourceTree = "<group>";
 		};
+		71BE1A8CD366E8D7DAA83D5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74758B6A1ECA14CB34C951BB /* Pods_TegakiNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EB47CCE24BD03D70029F880 /* Build configuration list for PBXNativeTarget "TegakiNote" */;
 			buildPhases = (
+				5D93AD69716E71E7684FD437 /* [CP] Check Pods Manifest.lock */,
 				4EB47CA024BD03D50029F880 /* Sources */,
 				4EB47CA124BD03D50029F880 /* Frameworks */,
 				4EB47CA224BD03D50029F880 /* Resources */,
+				41243651F21D1C479236B0D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41243651F21D1C479236B0D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TegakiNote/Pods-TegakiNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TegakiNote/Pods-TegakiNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TegakiNote/Pods-TegakiNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D93AD69716E71E7684FD437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TegakiNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4EB47CA024BD03D50029F880 /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		4EB47CCF24BD03D70029F880 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6961259437722E669A672452 /* Pods-TegakiNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +520,7 @@
 		};
 		4EB47CD024BD03D70029F880 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CC316111408CD7593F4102 /* Pods-TegakiNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
